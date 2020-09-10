@@ -18,7 +18,7 @@ namespace DesignPatternsDemo
                 Console.WriteLine("3 To See Structural Design Pattern");
                 Console.WriteLine("0 To Exit");
                 Console.WriteLine("------------------------------------");
-                choice = (char)Console.Read();;
+                choice = (char)Console.Read();
                 switch (choice)
                 {
                     case '1':
@@ -35,7 +35,7 @@ namespace DesignPatternsDemo
                         break;
                 }
 
-            } while (choice !='0');
+            } while (choice != '0');
         }
     }
 }

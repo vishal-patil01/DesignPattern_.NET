@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.BridgePattern
 {
-    /// <summary>
-    /// The 'RefinedAbstraction' class
-    /// </summary>
+   ///<summary>
+   ///The 'RefinedAbstraction' class
+   ///</summary>
     public class UserMessage : Message
     {
         public string UserComments { get; set; }

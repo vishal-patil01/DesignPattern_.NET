@@ -5,13 +5,11 @@ using System.Text;
 namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPattern
 {
    ///<summary>
-   ///The 'ProductA2' class
+   ///The 'AbstractFactory' interface. 
    ///</summary>
-    class SportsBike : IBike
+    interface IVehicleFactory
     {
-        public string Name()
-        {
-            return "Sports Bike- Name";
-        }
+        IBike GetBike(string Bike);
+        IScooter GetScooter(string Scooter);
     }
 }

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// The 'State' abstract class
+   ///The 'State' abstract class
 
-    /// </summary>
+   ///</summary>
 
     abstract class State
 
@@ -20,7 +20,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
         protected double lowerLimit;
         protected double upperLimit;
 
-        // Properties
+        ////Properties
 
         public Account Account
         {

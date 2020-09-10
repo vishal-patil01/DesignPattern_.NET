@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPattern
 {
-    /// <summary>
-    /// The 'ProductA1' class
-    /// </summary>
-    class RegularBike : Bike
+   ///<summary>
+   ///The 'ProductA1' class
+   ///</summary>
+    class RegularBike : IBike
     {
         public string Name()
         {

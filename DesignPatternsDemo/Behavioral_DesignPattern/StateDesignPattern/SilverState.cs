@@ -4,22 +4,22 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// A 'ConcreteState' class
+   ///A 'ConcreteState' class
 
-    /// <remarks>
+   ///<remarks>
 
-    /// Silver indicates a non-interest bearing state
+   ///Silver indicates a non-interest bearing state
 
-    /// </remarks>
+   ///</remarks>
 
-    /// </summary>
+   ///</summary>
 
     class SilverState : State
 
     {
-        // Overloaded constructors
+        ////Overloaded constructors
 
 
         public SilverState(State state) :
@@ -36,7 +36,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 
         private void Initialize()
         {
-            // Should come from a datasource
+            ////Should come from a datasource
 
             interest = 0.0;
             lowerLimit = 0.0;

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.FactoryDesignPattern
 {
-    /// <summary>
-    /// A 'ConcreteCreator' class
-    /// </summary>
+   ///<summary>
+   ///A 'ConcreteCreator' class
+   ///</summary>
     public class ConcreteVehicleFactory : VehicleFactory
     {
         public override IFactory GetVehicle(string Vehicle)

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.SingletonPattern.ThreadUnsafeSingletonPattern
 {
-    /// <summary>
-    /// The 'Singleton' class
-    /// </summary>
+   ///<summary>
+   ///The 'Singleton' class
+   ///</summary>
     public class ThreadUnsafeSingleton
     {
-        // .NET guarantees thread safety for static initialization
+        ////.NET guarantees thread safety for static initialization
         private static ThreadUnsafeSingleton instance = null;
         private string Name { get; set; }
         private string IP { get; set; }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.BridgePattern
 {
-    /// <summary>
-    /// The 'ConcreteImplementor' class
-    /// </summary>
+   ///<summary>
+   ///The 'ConcreteImplementor' class
+   ///</summary>
     public class EmailSender : IMessageSender
     {
         public void SendMessage(string subject, string body)

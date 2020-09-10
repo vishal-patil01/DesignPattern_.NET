@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.BridgePattern
 {
-    /// <summary>
-    /// The 'Abstraction' class
-    /// </summary>
+   ///<summary>
+   ///The 'Abstraction' class
+   ///</summary>
     public abstract class Message
     {
         public IMessageSender MessageSender { get; set; }

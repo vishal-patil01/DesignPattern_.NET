@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.FactoryDesignPattern
 {
-    /// <summary>
-    /// A 'ConcreteProduct' class
-    /// </summary>
+   ///<summary>
+   ///A 'ConcreteProduct' class
+   ///</summary>
     public class Scooter : IFactory
     {
         public void Drive(int miles)

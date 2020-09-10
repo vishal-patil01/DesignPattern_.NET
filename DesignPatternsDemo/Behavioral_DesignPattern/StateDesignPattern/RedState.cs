@@ -5,24 +5,24 @@ using System.Text;
 namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 {
 
-    /// <summary>
+   ///<summary>
 
-    /// A 'ConcreteState' class
+   ///A 'ConcreteState' class
 
-    /// <remarks>
+   ///<remarks>
 
-    /// Red indicates that account is overdrawn 
+   ///Red indicates that account is overdrawn 
 
-    /// </remarks>
+   ///</remarks>
 
-    /// </summary>
+   ///</summary>
 
     class RedState : State
 
     {
         private double _serviceFee;
 
-        // Constructor
+        ////Constructor
 
         public RedState(State state)
         {
@@ -33,7 +33,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 
         private void Initialize()
         {
-            // Should come from a datasource
+            ////Should come from a datasource
 
             interest = 0.0;
             lowerLimit = -100.0;
@@ -55,7 +55,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 
         public override void PayInterest()
         {
-            // No interest is paid
+            ////No interest is paid
 
         }
 

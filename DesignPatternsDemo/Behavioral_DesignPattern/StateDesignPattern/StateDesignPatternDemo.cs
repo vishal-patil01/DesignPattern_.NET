@@ -4,30 +4,30 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// MainApp startup class for Real-World 
+   ///MainApp startup class for Real-World 
 
-    /// State Design Pattern.
+   ///State Design Pattern.
 
-    /// </summary>
+   ///</summary>
 
     public class StateDesignPatternDemo
 
     {
-        /// <summary>
+       ///<summary>
 
-        /// Entry point into console application.
+       ///Entry point into console application.
 
-        /// </summary>
+       ///</summary>
 
         public static void Start()
         {
-            // Open a new account
+            ////Open a new account
 
             Account account = new Account("Jim Johnson");
 
-            // Apply financial transactions
+            ////Apply financial transactions
             Console.Clear();
             account.Deposit(500.0);
             account.Deposit(300.0);
@@ -36,7 +36,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
             account.Withdraw(2000.00);
             account.Withdraw(1100.00);
 
-            // Wait for user
+            ////Wait for user
 
             Console.ReadKey();
         }

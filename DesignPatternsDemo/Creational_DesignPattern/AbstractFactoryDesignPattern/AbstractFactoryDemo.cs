@@ -4,14 +4,14 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPattern
 {
-    /// <summary>
-    /// Abstract Factory Pattern Demo
-    /// </summary>
+   ///<summary>
+   ///Abstract Factory Pattern Demo
+   ///</summary>
     public class AbstractFactoryDemo
     {
         public static void Start()
         {
-            VehicleFactory honda = new HondaFactory();
+            IVehicleFactory honda = new HondaFactory();
             VehicleClient hondaclient = new VehicleClient(honda, "Regular");
 
             Console.Clear();
@@ -23,7 +23,7 @@ namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPatte
             Console.WriteLine(hondaclient.GetBikeName());
             Console.WriteLine(hondaclient.GetScooterName());
 
-            VehicleFactory hero = new HeroFactory();
+            IVehicleFactory hero = new HeroFactory();
             VehicleClient heroclient = new VehicleClient(hero, "Regular");
 
             Console.WriteLine("******* Hero **********");

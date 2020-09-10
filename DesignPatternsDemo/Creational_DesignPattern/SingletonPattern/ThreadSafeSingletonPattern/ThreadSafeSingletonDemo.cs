@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.SingletonPattern.ThreadSafeSingletonPattern
 {
-    /// <summary>
-    /// Singleton Pattern Demo
-    /// </summary>
-    /// 
+   ///<summary>
+   ///Singleton Pattern Demo
+   ///</summary>
+   ///
     public class ThreadSafeSingltonDemo
     {
         public static void Start()

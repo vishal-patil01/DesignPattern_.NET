@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.FactoryDesignPattern
 {
-    /// <summary>
-    /// Factory Pattern Demo
-    /// </summary>
+   ///<summary>
+   ///Factory Pattern Demo
+   ///</summary>
     public class FactoryPatternDemo
     {
         public static void Start()

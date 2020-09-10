@@ -5,9 +5,9 @@ using System.Text;
 namespace DesignPatternsDemo.Structural_DesignPattern.BridgePattern
 {
 
-    /// <summary>
-    /// The 'RefinedAbstraction' class
-    /// </summary>
+   ///<summary>
+   ///The 'RefinedAbstraction' class
+   ///</summary>
     public class SystemMessage : Message
     {
         public override void Send()

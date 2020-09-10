@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.AdapterDesignPattern
 {
-    /// <summary>
-    /// The 'Client' class
-    /// </summary>
+   ///<summary>
+   ///The 'Client' class
+   ///</summary>
     public class ThirdPartyBillingSystem
     {
         private ITarget employeeSource;

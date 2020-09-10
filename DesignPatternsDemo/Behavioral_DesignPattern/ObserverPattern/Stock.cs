@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// The 'Subject' abstract class
+   ///The 'Subject' abstract class
 
-    /// </summary>
+   ///</summary>
     abstract class Stock
 
     {
@@ -16,7 +16,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
         private double _price;
         private List<IInvestor> _investors = new List<IInvestor>();
 
-        // Constructor
+        ////Constructor
 
         public Stock(string symbol, double price)
         {
@@ -44,7 +44,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
             Console.WriteLine("");
         }
 
-        // Gets or sets the price
+        ////Gets or sets the price
 
         public double Price
         {
@@ -60,7 +60,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
             }
         }
 
-        // Gets the symbol
+        ////Gets the symbol
 
         public string Symbol
         {

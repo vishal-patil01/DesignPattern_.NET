@@ -4,12 +4,11 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPattern
 {
-    /// <summary>
-    /// The 'AbstractProductA' interface
-    /// </summary>
-    interface Bike
+   ///<summary>
+   ///The 'AbstractProductB' interface
+   ///</summary>
+    interface IScooter
     {
         string Name();
     }
-
 }

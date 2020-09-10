@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// The 'ConcreteObserver' class
+   ///The 'ConcreteObserver' class
 
-    /// </summary>
+   ///</summary>
 
     class Investor : IInvestor
 
@@ -16,7 +16,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
         private string _name;
         private Stock _stock;
 
-        // Constructor
+        ////Constructor
 
         public Investor(string name)
         {
@@ -29,7 +29,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
               "change to {2:C}", _name, stock.Symbol, stock.Price);
         }
 
-        // Gets or sets the stock
+        ////Gets or sets the stock
 
         public Stock Stock
         {

@@ -4,22 +4,22 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// A 'ConcreteState' class
+   ///A 'ConcreteState' class
 
-    /// <remarks>
+   ///<remarks>
 
-    /// Gold indicates an interest bearing state
+   ///Gold indicates an interest bearing state
 
-    /// </remarks>
+   ///</remarks>
 
-    /// </summary>
+   ///</summary>
 
     class GoldState : State
 
     {
-        // Overloaded constructors
+        ////Overloaded constructors
 
         public GoldState(State state)
           : this(state.Balance, state.Account)
@@ -35,7 +35,7 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 
         private void Initialize()
         {
-            // Should come from a database
+            ////Should come from a database
 
             interest = 0.05;
             lowerLimit = 1000.0;

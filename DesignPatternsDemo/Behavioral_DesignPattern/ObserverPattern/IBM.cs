@@ -4,16 +4,16 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// The 'ConcreteSubject' class
+   ///The 'ConcreteSubject' class
 
-    /// </summary>
+   ///</summary>
 
     class IBM : Stock
 
     {
-        // Constructor
+        ////Constructor
 
         public IBM(string symbol, double price)
           : base(symbol, price)

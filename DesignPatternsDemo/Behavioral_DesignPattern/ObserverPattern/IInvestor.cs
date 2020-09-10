@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.ObserverPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// The 'Observer' interface
+   ///The 'Observer' interface
 
-    /// </summary>
+   ///</summary>
 
     interface IInvestor
 

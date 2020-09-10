@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPattern
 {
-    /// <summary>
-    /// The 'ConcreteFactory1' class.
-    /// </summary>
-    class HondaFactory : VehicleFactory
+   ///<summary>
+   ///The 'ConcreteFactory1' class.
+   ///</summary>
+    class HondaFactory : IVehicleFactory
     {
-        public Bike GetBike(string Bike)
+        public IBike GetBike(string Bike)
         {
             switch (Bike)
             {
@@ -23,7 +23,7 @@ namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPatte
 
         }
 
-        public Scooter GetScooter(string Scooter)
+        public IScooter GetScooter(string Scooter)
         {
             switch (Scooter)
             {

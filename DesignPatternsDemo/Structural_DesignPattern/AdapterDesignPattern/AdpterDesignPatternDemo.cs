@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.AdapterDesignPattern
 {
-    /// 
-    /// Adapter Design Pattern Demo
-    /// 
+   ///
+   ///Adapter Design Pattern Demo
+   ///
     public class AdpterDesignPatternDemo
     {
         public static void Start()

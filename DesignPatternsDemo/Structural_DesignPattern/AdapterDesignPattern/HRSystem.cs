@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.AdapterDesignPattern
 {
-    /// <summary>
-    /// The 'Adaptee' class
-    /// </summary>
+   ///<summary>
+   ///The 'Adaptee' class
+   ///</summary>
     public class HRSystem
     {
         public string[][] GetEmployees()

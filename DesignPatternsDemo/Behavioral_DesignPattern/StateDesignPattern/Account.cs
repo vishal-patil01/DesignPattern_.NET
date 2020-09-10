@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
 {
-    /// <summary>
+   ///<summary>
 
-    /// The 'Context' class
+   ///The 'Context' class
 
-    /// </summary>
+   ///</summary>
 
     class Account
 
@@ -16,17 +16,17 @@ namespace DesignPatternsDemo.Behavioral_DesignPattern.StateDesignPattern
         private State _state;
         private string _owner;
 
-        // Constructor
+        ////Constructor
 
         public Account(string owner)
         {
-            // New accounts are 'Silver' by default
+            ////New accounts are 'Silver' by default
 
             this._owner = owner;
             this._state = new SilverState(0.0, this);
         }
 
-        // Properties
+        ////Properties
 
         public double Balance
         {

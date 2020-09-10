@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsDemo.Structural_DesignPattern.BridgePattern
 {
-    /// <summary>
-    /// Bridge Design Pattern Demo
-    /// </summary>
+   ///<summary>
+   ///Bridge Design Pattern Demo
+   ///</summary>
     public class BridgePatternDemo
     {
         public static void Start()

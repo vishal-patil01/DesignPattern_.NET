@@ -4,15 +4,15 @@ using System.Text;
 
 namespace DesignPatternsDemo.Creational_DesignPattern.AbstractFactoryDesignPattern
 {
-    /// <summary>
-    /// The 'Client' class 
-    /// </summary>
+   ///<summary>
+   ///The 'Client' class 
+   ///</summary>
     class VehicleClient
     {
-        Bike bike;
-        Scooter scooter;
+        IBike bike;
+        IScooter scooter;
 
-        public VehicleClient(VehicleFactory factory, string type)
+        public VehicleClient(IVehicleFactory factory, string type)
         {
             bike = factory.GetBike(type);
             scooter = factory.GetScooter(type);
